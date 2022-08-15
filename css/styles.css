@@ -538,6 +538,8 @@ body {
 
 .checkbox-input{
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .check_box{
@@ -558,6 +560,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('../images/galochka.svg');
+  /* background-origin: border-box; */
 }
 
 .policy-text{
